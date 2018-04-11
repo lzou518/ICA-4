@@ -5,7 +5,7 @@ Which student has the sat_math score over 700?
  WHERE sat_math >=700
  ORDER BY sat_math ASC
 ```
-![ICA-4](satmathover700.png)
+![ICA-4](sat_math over 700.png)
 
 Rank the student from highest to lowest by sat_verbal?
 ```SELECT sat_verbal, student_id
@@ -34,4 +34,4 @@ ORDER BY sat_scores ASC
 FROM datasets.sat_scores
 ORDER BY sat_verbal DESC
 ```
-![ICA-4](satverbalrank.png)
+![ICA-4](sat verbal rank.png)
